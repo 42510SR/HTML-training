@@ -1,12 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <title>Layout2</title>
 </head>
-<body>
-    
+<style>
+   .list li{
+       list-style-type: none;
+       
+   } 
+   .list li a{
+       text-decoration: none;
+       color:black;
+       padding: 20px;
+   }
+   nav{
+       background-color:rgb(230, 230, 248);
+   }
+   *{
+       font-family: Arial, Helvetica, sans-serif;
+   }
+   ul li a:hover{
+       color: white;
+       background-color: black;
+   }
+   .li {
+       margin-bottom: 50px;
+   }
+   .login img{
+       float: left;
+   }
+</style>
+<body style="margin: 0;padding:0">
+    <nav style="display: flex;">
+        <div class="logo" style="margin-left: 50px;">
+            <h2>SHAGUN<span style="color:rgb(148, 148, 233)">.</span></h2>
+        </div>
+        <div class="list" style="margin:auto;">
+            <ul style="display: flex;">
+            <li><a href="#"><b>HOME</b></a></li>
+            <li><a href="#"><B>ABOUT</B></a> </li>
+            <li><a href="#"><B>CONTACT</B></a> </li>
+        </ul>
+        </div>
+        <div class="login" style="margin-right:50px ;">
+            <img src="HTML_training/pic1.jpg" alt="" style="width: 20px;
+                height: 20px;
+                margin-top: 20px;">
+            <h3><span style="color:orange">Login</span></h3>
+        </div>
+    </nav>
+
+    <div class="content" style="display: flex; margin-top: 40px;">
+        <div class="left" style="margin: 60px;">
+            <ul>
+                <div class="li">
+                    <h3><span style="color:red">Lorem ipsum dolor sit.</span></h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+
+                </div>
+                <div class="li">
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+                <div class="li">
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+                <div class="li">
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+
+            </ul>
+        </div>
+        <div class="right" style="width: 50%;float: right;display: flex;">
+            <img src="HTML_training/pic22.jpg" alt="" width="100%">
+        </div>
+    </div>
 </body>
+
 </html>
